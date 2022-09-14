@@ -1,12 +1,12 @@
 ![MasterHead](/image/codinggee.png)
 <h1 align="center">Hi 👋, I'm Samuel Chinonso Archibong (CodingGee)</h1>
 <h3 align="center">I am a multiplatform Software Engineer from Nigeria.</h3>
-<img align="right" alt="coding" width="400" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sammiearchie29&label=Profile%20views&color=0e75b6&style=flat" alt="sammiearchie29" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sammiearchie77" alt="sammiearchie77" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/geecoding" target="blank"><img src="https://img.shields.io/twitter/follow/geecoding?logo=twitter&style=for-the-badge" alt="geecoding" /></a> </p>
+<img align="right" alt="coding" width="400" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif">
 
 - 🔭 I’m currently working on **Myposbook**
 
@@ -45,4 +45,4 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sammiearchie77&show_icons=true&locale=en" alt="sammiearchie77" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sammiearchie29&" alt="sammiearchie77" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sammiearchie77&" alt="sammiearchie77" /></p>
