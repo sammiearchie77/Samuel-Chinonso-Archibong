@@ -1,0 +1,34 @@
+.logo {
+    height: 52px;
+    position: relative;
+    width: 52px;
+  }
+  
+  .logo .overlap-group {
+    height: 53px;
+    position: relative;
+    top: -1px;
+    width: 53px;
+  }
+  
+  .logo .union {
+    height: 39px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    width: 26px;
+  }
+  
+  .logo .img {
+    height: 41px;
+    left: 25px;
+    position: absolute;
+    top: 0;
+    width: 28px;
+  }
+  
+  .logo.style-default {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/9338b2cba99f6f2790a78abcc37de20d/img/union-7.svg);
+    background-size: 100% 100%;
+  }
+  

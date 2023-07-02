@@ -1,0 +1,45 @@
+.header {
+    align-items: flex-end;
+    background-color: #282c33;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px 8px;
+    position: relative;
+    width: 1024px;
+  }
+  
+  .header .frame-14 {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .header .design-component-instance-node {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/9338b2cba99f6f2790a78abcc37de20d/img/union-10.svg) !important;
+    height: 16px !important;
+    min-width: 16px !important;
+    width: unset !important;
+  }
+  
+  .header .elias-3 {
+    color: #ffffff;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .header .frame-15 {
+    align-items: flex-start;
+    display: flex;
+    gap: 32px;
+    position: relative;
+    width: fit-content;
+  }
+  

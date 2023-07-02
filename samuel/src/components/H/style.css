@@ -1,0 +1,46 @@
+.h {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    position: relative;
+    width: 701px;
+  }
+  
+  .h .div {
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .h .element {
+    color: #c778dd;
+    font-family: "Fira Code", Helvetica;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .h .projects {
+    color: #ffffff;
+    font-family: "Fira Code", Helvetica;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .h .line-stroke {
+    flex: 1;
+    height: 1px;
+    min-width: 511px;
+    position: relative;
+  }
+  
