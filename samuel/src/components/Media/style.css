@@ -1,32 +1,31 @@
 .media {
-    align-items: center;
-    display: flex;
-    gap: 5px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .media .elias {
-    font-family: "Fira Code", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .media .twitter-instance {
-    height: 32px !important;
-    min-width: 32px !important;
-    position: relative !important;
-  }
-  
-  .media .default {
-    color: #abb2bf;
-  }
-  
-  .media .hover {
-    color: #ffffff;
-  }
-  
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  position: relative;
+  width: fit-content;
+}
+
+.media .elias {
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.media .twitter-instance {
+  height: 32px !important;
+  min-width: 32px !important;
+  position: relative !important;
+}
+
+.media .default {
+  color: #abb2bf;
+}
+
+.media .hover {
+  color: #ffffff;
+}

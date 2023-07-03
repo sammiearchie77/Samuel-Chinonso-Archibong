@@ -1,105 +1,104 @@
 .language-switcher {
-    align-items: center;
-    display: flex;
-    gap: 4px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .language-switcher .EN {
-    color: #abb2bf;
-    font-family: "Fira Code", Helvetica;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .language-switcher .overlap-group-wrapper {
-    height: 5px;
-    min-width: 10px;
-    position: relative;
-  }
-  
-  .language-switcher .overlap-group-2 {
-    height: 6px;
-    position: relative;
-    top: -1px;
-    width: 10px;
-  }
-  
-  .language-switcher .line-3 {
-    height: 6px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 6px;
-  }
-  
-  .language-switcher .line-4 {
-    height: 6px;
-    left: 4px;
-    position: absolute;
-    top: 0;
-    width: 6px;
-  }
-  
-  .language-switcher .frame-13 {
-    align-items: flex-start;
-    background-color: #282c33;
-    border: 1px solid;
-    border-color: #abb2bf;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    left: 0;
-    padding: 8px;
-    position: absolute;
-    top: 25px;
-    width: fit-content;
-  }
-  
-  .language-switcher .RU {
-    color: #abb2bf;
-    font-family: "Fira Code", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .language-switcher .UA {
-    color: #abb2bf;
-    font-family: "Fira Code", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .language-switcher .open {
-    transform: rotate(-180deg);
-  }
-  
-  .language-switcher .state-default {
-    height: 1px;
-    opacity: 0;
-    overflow: hidden;
-  }
-  
-  .language-switcher .overlap-group-wrapper.open .line-3 {
-    transform: rotate(180deg);
-  }
-  
-  .language-switcher .overlap-group-wrapper.open .line-4 {
-    transform: rotate(180deg);
-  }
-  
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.language-switcher .EN {
+  color: #abb2bf;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.language-switcher .overlap-group-wrapper {
+  height: 5px;
+  min-width: 10px;
+  position: relative;
+}
+
+.language-switcher .overlap-group-2 {
+  height: 6px;
+  position: relative;
+  top: -1px;
+  width: 10px;
+}
+
+.language-switcher .line-3 {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 6px;
+}
+
+.language-switcher .line-4 {
+  height: 6px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 6px;
+}
+
+.language-switcher .frame-13 {
+  align-items: flex-start;
+  background-color: #282c33;
+  border: 1px solid;
+  border-color: #abb2bf;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 0;
+  padding: 8px;
+  position: absolute;
+  top: 25px;
+  width: fit-content;
+}
+
+.language-switcher .RU {
+  color: #abb2bf;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.language-switcher .UA {
+  color: #abb2bf;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.language-switcher .open {
+  transform: rotate(-180deg);
+}
+
+.language-switcher .state-default {
+  height: 1px;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.language-switcher .overlap-group-wrapper.open .line-3 {
+  transform: rotate(180deg);
+}
+
+.language-switcher .overlap-group-wrapper.open .line-4 {
+  transform: rotate(180deg);
+}

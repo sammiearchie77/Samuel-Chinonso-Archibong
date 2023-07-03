@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 import PropTypes from "prop-types";
 import { useReducer } from "react";
 import { Twitter } from "../../icons/Twitter";
