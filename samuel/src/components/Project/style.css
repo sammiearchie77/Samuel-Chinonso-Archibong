@@ -1,82 +1,81 @@
 .project {
-    align-items: flex-start;
-    border: 1px solid;
-    border-color: #abb2bf;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .project .rectangle {
-    height: 202px;
-    min-width: 330.58px;
-    object-fit: cover;
-    position: relative;
-  }
-  
-  .project .frame-4 {
-    align-items: flex-start;
-    align-self: stretch;
-    display: flex;
-    gap: 8px;
-    padding: 8px;
-    position: relative;
-  }
-  
-  .project .text-wrapper-2 {
-    color: #abb2bf;
-    font-family: "Fira Code", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .project .frame-5 {
-    align-items: flex-start;
-    align-self: stretch;
-    border-color: #abb2bf;
-    border-top-style: solid;
-    border-top-width: 1px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 16px;
-    position: relative;
-  }
-  
-  .project .chertnodes {
-    align-self: stretch;
-    color: #ffffff;
-    font-family: "Fira Code", Helvetica;
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-  }
-  
-  .project .minecraft-servers {
-    align-self: stretch;
-    color: #abb2bf;
-    font-family: "Fira Code", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-  }
-  
-  .project .frame-6 {
-    align-items: flex-start;
-    display: flex;
-    gap: 16px;
-    position: relative;
-    width: fit-content;
-  }
-  
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: #abb2bf;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+}
+
+.project .rectangle {
+  height: 202px;
+  min-width: 330.58px;
+  object-fit: cover;
+  position: relative;
+}
+
+.project .frame-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+}
+
+.project .text-wrapper-2 {
+  color: #abb2bf;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.project .frame-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  border-color: #abb2bf;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  position: relative;
+}
+
+.project .chertnodes {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Fira Code", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+}
+
+.project .minecraft-servers {
+  align-self: stretch;
+  color: #abb2bf;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.project .frame-6 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}

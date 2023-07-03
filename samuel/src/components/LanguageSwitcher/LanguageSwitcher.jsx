@@ -1,3 +1,4 @@
+/* eslint-disable default-case */
 import PropTypes from "prop-types";
 import { React,useReducer } from "react";
 import "./style.css"

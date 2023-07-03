@@ -1,164 +1,163 @@
 .footer {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    padding: 0px 0px 32px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .footer .line-2 {
-    height: 1px;
-    margin-top: -1px;
-    min-width: 1363.5px;
-    object-fit: cover;
-    position: relative;
-  }
-  
-  .footer .frame-7 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .footer .frame-8 {
-    align-items: flex-start;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 1025px;
-  }
-  
-  .footer .frame-9 {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .footer .frame-10 {
-    align-items: center;
-    align-self: stretch;
-    display: flex;
-    gap: 24px;
-    position: relative;
-  }
-  
-  .footer .frame-11 {
-    align-items: center;
-    display: flex;
-    gap: 9px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .footer .logo-instance {
-    background-image: url(https://generation-sessions.s3.amazonaws.com/9338b2cba99f6f2790a78abcc37de20d/img/union-10.svg) !important;
-    height: 16px !important;
-    min-width: 16px !important;
-    width: unset !important;
-  }
-  
-  .footer .elias-2 {
-    color: #ffffff;
-    font-family: "Fira Code", Helvetica;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .footer .elias-elias-dev-ml {
-    color: #abb2bf;
-    font-family: "Fira Code", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .footer .web-designer-and {
-    color: #ffffff;
-    font-family: "Fira Code", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .footer .frame-12 {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .footer .media-2 {
-    color: #ffffff;
-    font-family: "Fira Code", Helvetica;
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    width: fit-content;
-  }
-  
-  .footer .group {
-    height: 32px;
-    min-width: 112px;
-    position: relative;
-  }
-  
-  .footer .github {
-    height: 32px !important;
-    left: 0 !important;
-    position: absolute !important;
-    top: 0 !important;
-    width: 32px !important;
-  }
-  
-  .footer .figma {
-    height: 32px !important;
-    left: 40px !important;
-    position: absolute !important;
-    top: 0 !important;
-    width: 32px !important;
-  }
-  
-  .footer .discord {
-    height: 32px !important;
-    left: 80px !important;
-    position: absolute !important;
-    top: 0 !important;
-    width: 32px !important;
-  }
-  
-  .footer .copyright-made {
-    color: #abb2bf;
-    font-family: "Fira Code", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    width: 298px;
-  }
-  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0px 0px 32px;
+  position: relative;
+  width: fit-content;
+}
+
+.footer .line-2 {
+  height: 1px;
+  margin-top: -1px;
+  min-width: 1363.5px;
+  object-fit: cover;
+  position: relative;
+}
+
+.footer .frame-7 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  position: relative;
+  width: fit-content;
+}
+
+.footer .frame-8 {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1025px;
+}
+
+.footer .frame-9 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.footer .frame-10 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 24px;
+  position: relative;
+}
+
+.footer .frame-11 {
+  align-items: center;
+  display: flex;
+  gap: 9px;
+  position: relative;
+  width: fit-content;
+}
+
+.footer .logo-instance {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/9338b2cba99f6f2790a78abcc37de20d/img/union-10.svg) !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  width: unset !important;
+}
+
+.footer .elias-2 {
+  color: #ffffff;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.footer .elias-elias-dev-ml {
+  color: #abb2bf;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.footer .web-designer-and {
+  color: #ffffff;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.footer .frame-12 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: fit-content;
+}
+
+.footer .media-2 {
+  color: #ffffff;
+  font-family: "Fira Code", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.footer .group {
+  height: 32px;
+  min-width: 112px;
+  position: relative;
+}
+
+.footer .github {
+  height: 32px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 32px !important;
+}
+
+.footer .figma {
+  height: 32px !important;
+  left: 40px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 32px !important;
+}
+
+.footer .discord {
+  height: 32px !important;
+  left: 80px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 32px !important;
+}
+
+.footer .copyright-made {
+  color: #abb2bf;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 298px;
+}

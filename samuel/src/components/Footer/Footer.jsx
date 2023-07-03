@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 import React from "react";
 import { Discord1 } from "../../icons/Discord1";
 import { Figma3 } from "../../icons/Figma3";

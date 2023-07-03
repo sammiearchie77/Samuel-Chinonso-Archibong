@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 import React from "react";
 import { Link } from "react-router-dom";
 import { HeaderLink } from "../HeaderLink";
