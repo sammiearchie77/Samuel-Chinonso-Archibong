@@ -1,0 +1,844 @@
+.home {
+    background-color: #282c33;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home .div-2 {
+    background-color: #282c33;
+    border: 1px none;
+    height: 3192px;
+    overflow: hidden;
+    position: relative;
+    width: 1366px;
+  }
+  
+  .home .overlap {
+    height: 2181px;
+    left: -77px;
+    position: absolute;
+    top: 658px;
+    width: 1530px;
+  }
+  
+  .home .background {
+    height: 2136px;
+    left: 0;
+    position: absolute;
+    top: 14px;
+    width: 1530px;
+  }
+  
+  .home .dots-instance {
+    height: 103px !important;
+    left: 1363px !important;
+    position: absolute !important;
+    top: 1622px !important;
+    width: 103px !important;
+  }
+  
+  .home .frame-17 {
+    height: 103px !important;
+    left: 26px !important;
+    position: absolute !important;
+    top: 2033px !important;
+    width: 103px !important;
+  }
+  
+  .home .frame-18 {
+    height: unset !important;
+    left: 31px !important;
+    position: absolute !important;
+    top: 283px !important;
+  }
+  
+  .home .rectangle-2 {
+    border: 1px solid;
+    border-color: #abb2bf;
+    height: 155px;
+    left: 0;
+    position: absolute;
+    top: 1453px;
+    width: 155px;
+  }
+  
+  .home .rectangle-3 {
+    border: 1px solid;
+    border-color: #abb2bf;
+    height: 155px;
+    left: 1375px;
+    position: absolute;
+    top: 488px;
+    width: 155px;
+  }
+  
+  .home .rectangle-4 {
+    border: 1px solid;
+    border-color: #abb2bf;
+    height: 91px;
+    left: 1361px;
+    position: absolute;
+    top: 0;
+    width: 91px;
+  }
+  
+  .home .contact {
+    height: 228px;
+    left: 247px;
+    position: absolute;
+    top: 1953px;
+    width: 1023px;
+  }
+  
+  .home .h-2 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 317px !important;
+  }
+  
+  .home .h-instance {
+    min-width: 127px !important;
+  }
+  
+  .home .p-wrapper {
+    height: 63px;
+    left: 0;
+    position: absolute;
+    top: 87px;
+    width: 507px;
+  }
+  
+  .home .p {
+    color: #abb2bf;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 505px;
+  }
+  
+  .home .frame-wrapper {
+    height: 141px;
+    left: 819px;
+    position: absolute;
+    top: 87px;
+    width: 204px;
+  }
+  
+  .home .frame-19 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #abb2bf;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .home .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .home .frame-20 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .home .icon-instance-node-2 {
+    height: 32px !important;
+    min-width: 32px !important;
+    position: relative !important;
+  }
+  
+  .home .about-me {
+    height: 508px;
+    left: 247px;
+    position: absolute;
+    top: 1333px;
+    width: 1025px;
+  }
+  
+  .home .about-me-2 {
+    height: 376px;
+    left: 1px;
+    position: absolute;
+    top: 65px;
+    width: 517px;
+  }
+  
+  .home .hello-i-m-elias-i-m {
+    color: #abb2bf;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 26px;
+    position: absolute;
+    top: 0;
+    width: 515px;
+  }
+  
+  .home .button-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 339px !important;
+  }
+  
+  .home .h2-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 516px !important;
+  }
+  
+  .home .group-2 {
+    min-width: 326px !important;
+  }
+  
+  .home .group-3 {
+    height: 508px;
+    left: 682px;
+    position: absolute;
+    top: 0;
+    width: 343px;
+  }
+  
+  .home .overlap-group-3 {
+    height: 507px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 343px;
+  }
+  
+  .home .image {
+    height: 507px;
+    left: 4px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 339px;
+  }
+  
+  .home .frame-21 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 59px !important;
+  }
+  
+  .home .frame-22 {
+    height: 56px !important;
+    left: 223px !important;
+    position: absolute !important;
+    top: 279px !important;
+    width: 104px !important;
+  }
+  
+  .home .line-stroke-3 {
+    height: 1px;
+    left: 48px;
+    position: absolute;
+    top: 507px;
+    width: 271px;
+  }
+  
+  .home .skills {
+    height: 365px;
+    left: 250px;
+    position: absolute;
+    top: 856px;
+    width: 1024px;
+  }
+  
+  .home .group-4 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 391px !important;
+  }
+  
+  .home .group-5 {
+    min-width: 239px !important;
+  }
+  
+  .home .group-6 {
+    height: 280px;
+    left: 440px;
+    position: absolute;
+    top: 85px;
+    width: 584px;
+  }
+  
+  .home .design-component-instance-node-2 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .home .block-instance {
+    left: 194px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .home .frame-23 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #abb2bf;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 388px;
+    padding: 8px 0px;
+    position: absolute;
+    top: 148px;
+    width: 196px;
+  }
+  
+  .home .div-wrapper {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    padding: 0px 8px;
+    position: relative;
+  }
+  
+  .home .line-5 {
+    align-self: stretch;
+    height: 1px;
+    min-width: 196px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .home .frame-24 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0px 8px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .home .frame-25 {
+    align-items: flex-start;
+    display: flex;
+    gap: 8px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .home .text-wrapper-4 {
+    color: #abb2bf;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .home .frame-26 {
+    align-items: flex-start;
+    display: flex;
+    gap: 11px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .home .frame-27 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #abb2bf;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 194px;
+    padding: 8px 0px;
+    position: absolute;
+    top: 119px;
+    width: 178px;
+  }
+  
+  .home .line-6 {
+    align-self: stretch;
+    height: 1px;
+    min-width: 178px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .home .frame-28 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #abb2bf;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 388px;
+    padding: 8px 0px;
+    position: absolute;
+    top: 0;
+    width: fit-content;
+  }
+  
+  .home .group-7 {
+    height: 282px;
+    left: 32px;
+    position: absolute;
+    top: 54px;
+    width: 349px;
+  }
+  
+  .home .frame-29 {
+    height: 63px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 38px !important;
+    width: 63px !important;
+  }
+  
+  .home .frame-30 {
+    height: 63px !important;
+    left: 177px !important;
+    position: absolute !important;
+    top: 143px !important;
+    width: 63px !important;
+  }
+  
+  .home .rectangle-5 {
+    border: 1px solid;
+    border-color: #abb2bf;
+    height: 52px;
+    left: 297px;
+    position: absolute;
+    top: 193px;
+    width: 52px;
+  }
+  
+  .home .rectangle-6 {
+    border: 1px solid;
+    border-color: #abb2bf;
+    height: 86px;
+    left: 227px;
+    position: absolute;
+    top: 0;
+    width: 86px;
+  }
+  
+  .home .logo-2 {
+    height: 113px;
+    left: 15px;
+    position: absolute;
+    top: 169px;
+    width: 113px;
+  }
+  
+  .home .overlap-group-4 {
+    height: 114px;
+    left: -1px;
+    position: relative;
+    width: 114px;
+  }
+  
+  .home .union-2 {
+    height: 85px;
+    left: 58px;
+    position: absolute;
+    top: 0;
+    width: 56px;
+  }
+  
+  .home .union-3 {
+    height: 87px;
+    left: 0;
+    position: absolute;
+    top: 27px;
+    width: 58px;
+  }
+  
+  .home .projects-2 {
+    height: 518px;
+    left: 248px;
+    position: absolute;
+    top: 232px;
+    width: 1027px;
+  }
+  
+  .home .frame-31 {
+    align-items: flex-start;
+    display: flex;
+    gap: 16px;
+    left: 2px;
+    position: absolute;
+    top: 90px;
+    width: fit-content;
+  }
+  
+  .home .project-instance {
+    margin-left: -1px !important;
+    margin-top: -1px !important;
+  }
+  
+  .home .group-8 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #abb2bf;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .home .rectangle-7 {
+    height: 202px;
+    min-width: 330.58px;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .home .frame-32 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    position: relative;
+  }
+  
+  .home .frame-33 {
+    align-items: flex-start;
+    align-self: stretch;
+    border-color: #abb2bf;
+    border-top-style: solid;
+    border-top-width: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    position: relative;
+  }
+  
+  .home .chert-nodes {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "Fira Code", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+  }
+  
+  .home .minecraft-servers-2 {
+    align-self: stretch;
+    color: #abb2bf;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+  }
+  
+  .home .frame-34 {
+    align-items: flex-start;
+    display: flex;
+    gap: 16px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .home .group-9 {
+    margin-right: -1px !important;
+    margin-top: -1px !important;
+  }
+  
+  .home .group-10 {
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1029px;
+  }
+  
+  .home .view-all {
+    color: #ffffff;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 911px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .home .quote {
+    align-items: flex-start;
+    background-color: #282c33;
+    border: 1px solid;
+    border-color: #abb2bf;
+    display: flex;
+    gap: 10px;
+    left: 403px;
+    padding: 32px;
+    position: absolute;
+    top: 0;
+    width: fit-content;
+  }
+  
+  .home .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Fira Code", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .home .frame-35 {
+    height: 29px;
+    left: 11px;
+    position: absolute;
+    top: -14px;
+    width: 41px;
+  }
+  
+  .home .frame-36 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #abb2bf;
+    display: flex;
+    gap: 10px;
+    left: 548px;
+    padding: 16px;
+    position: absolute;
+    top: 94px;
+    width: fit-content;
+  }
+  
+  .home .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Fira Code", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .home .frame-37 {
+    height: 29px;
+    left: 654px;
+    position: absolute;
+    top: 80px;
+    width: 41px;
+  }
+  
+  .home .footer-instance {
+    background-color: transparent !important;
+    height: auto !important;
+    left: -2px !important;
+    position: absolute !important;
+    top: 2984px !important;
+  }
+  
+  .home .first {
+    height: 423px;
+    left: 171px;
+    position: absolute;
+    top: 123px;
+    width: 1024px;
+  }
+  
+  .home .group-11 {
+    height: 227px;
+    left: 0;
+    position: absolute;
+    top: 74px;
+    width: 541px;
+  }
+  
+  .home .elias-is-a-web {
+    color: transparent;
+    font-family: "Fira Code", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 537px;
+  }
+  
+  .home .span {
+    color: #ffffff;
+  }
+  
+  .home .text-wrapper-7 {
+    color: #c778dd;
+  }
+  
+  .home .text-wrapper-8 {
+    color: #abb2bf;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 25px;
+    position: absolute;
+    top: 116px;
+    width: 463px;
+  }
+  
+  .home .button-2 {
+    left: 0 !important;
+    position: absolute !important;
+    top: 190px !important;
+  }
+  
+  .home .overlap-wrapper {
+    height: 386px;
+    left: 555px;
+    position: absolute;
+    top: 0;
+    width: 469px;
+  }
+  
+  .home .overlap-2 {
+    height: 386px;
+    position: relative;
+  }
+  
+  .home .logo-3 {
+    height: 156px !important;
+    width: 156px !important;
+  }
+  
+  .home .logo-4 {
+    height: 116px !important;
+    top: 40px !important;
+    width: 78px !important;
+  }
+  
+  .home .logo-5 {
+    height: 118px !important;
+    left: 76px !important;
+    width: 80px !important;
+  }
+  
+  .home .logo-6 {
+    height: 155px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 84px !important;
+    width: 155px !important;
+  }
+  
+  .home .image-2 {
+    height: 386px;
+    left: -45px;
+    position: absolute;
+    top: 0;
+    width: 517px;
+  }
+  
+  .home .dots-2 {
+    left: 369px !important;
+    position: absolute !important;
+    top: 246px !important;
+  }
+  
+  .home .frame-38 {
+    align-items: center;
+    background-color: #282c33;
+    border: 1px solid;
+    border-color: #abb2bf;
+    display: flex;
+    gap: 10px;
+    left: 586px;
+    padding: 8px;
+    position: absolute;
+    top: 386px;
+    width: 402px;
+  }
+  
+  .home .rectangle-8 {
+    background-color: #c778dd;
+    border: 1px solid;
+    height: 16px;
+    min-width: 16px;
+    position: relative;
+  }
+  
+  .home .currently-working-on {
+    color: transparent;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .home .text-wrapper-9 {
+    color: #abb2bf;
+    font-weight: 500;
+  }
+  
+  .home .text-wrapper-10 {
+    color: #ffffff;
+    font-weight: 600;
+  }
+  
+  .home .header-instance {
+    height: auto !important;
+    left: 171px !important;
+    mix-blend-mode: normal !important;
+    position: fixed !important;
+    top: 0 !important;
+  }
+  
+  .home .media-instance {
+    left: 17px !important;
+    position: fixed !important;
+    top: 0 !important;
+  }
+  

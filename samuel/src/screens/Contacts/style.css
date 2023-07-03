@@ -1,0 +1,304 @@
+.contacts {
+    background-color: #282c33;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .contacts .div-2 {
+    background-color: #282c33;
+    border: 1px none;
+    height: 790px;
+    overflow: hidden;
+    position: relative;
+    width: 1366px;
+  }
+  
+  .contacts .overlap {
+    height: 1256px;
+    left: -77px;
+    position: absolute;
+    top: 237px;
+    width: 1530px;
+  }
+  
+  .contacts .background {
+    height: 1237px;
+    left: 0;
+    position: absolute;
+    top: 19px;
+    width: 1530px;
+  }
+  
+  .contacts .dots-instance {
+    height: 103px !important;
+    left: 1363px !important;
+    position: absolute !important;
+    top: 1134px !important;
+    width: 103px !important;
+  }
+  
+  .contacts .design-component-instance-node {
+    height: 103px !important;
+    left: 1390px !important;
+    position: absolute !important;
+    top: 511px !important;
+    width: 103px !important;
+  }
+  
+  .contacts .frame-11 {
+    height: 49px !important;
+    left: 46px !important;
+    position: absolute !important;
+    top: 145px !important;
+    width: 109px !important;
+  }
+  
+  .contacts .rectangle {
+    border: 1px solid;
+    border-color: #abb2bf;
+    height: 155px;
+    left: 0;
+    position: absolute;
+    top: 965px;
+    width: 155px;
+  }
+  
+  .contacts .rectangle-2 {
+    border: 1px solid;
+    border-color: #abb2bf;
+    height: 155px;
+    left: 1375px;
+    position: absolute;
+    top: 0;
+    width: 155px;
+  }
+  
+  .contacts .footer-instance {
+    background-color: transparent !important;
+    height: auto !important;
+    left: 77px !important;
+    position: absolute !important;
+    top: 345px !important;
+  }
+  
+  .contacts .discord-wrapper {
+    min-width: 1366px !important;
+  }
+  
+  .contacts .discord-1-wrapper {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/4dbb482d02fdef1af26a1fb928b6999e/img/union-1.svg) !important;
+    height: 16px !important;
+    min-width: 16px !important;
+    width: unset !important;
+  }
+  
+  .contacts .discord-1 {
+    height: 32px !important;
+    left: 80px !important;
+    position: absolute !important;
+    top: 0 !important;
+    width: 32px !important;
+  }
+  
+  .contacts .h-2 {
+    left: 248px !important;
+    position: absolute !important;
+    top: 166px !important;
+  }
+  
+  .contacts .media-instance {
+    left: 248px !important;
+    position: absolute !important;
+    top: 230px !important;
+  }
+  
+  .contacts .media-2 {
+    left: 365px !important;
+    position: absolute !important;
+    top: 229px !important;
+  }
+  
+  .contacts .contact {
+    height: 141px;
+    left: 248px;
+    position: absolute;
+    top: 0;
+    width: 1061px;
+  }
+  
+  .contacts .p-wrapper {
+    height: 78px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 507px;
+  }
+  
+  .contacts .p {
+    color: #abb2bf;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 26px;
+    position: absolute;
+    top: 0;
+    width: 505px;
+  }
+  
+  .contacts .group-2 {
+    height: 141px;
+    left: 622px;
+    position: absolute;
+    top: 0;
+    width: 439px;
+  }
+  
+  .contacts .frame-12 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #abb2bf;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    left: 197px;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    width: fit-content;
+  }
+  
+  .contacts .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .contacts .frame-13 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .contacts .icon-instance-node-2 {
+    height: 32px !important;
+    min-width: 32px !important;
+    position: relative !important;
+  }
+  
+  .contacts .frame-14 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #abb2bf;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 0;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    width: fit-content;
+  }
+  
+  .contacts .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .contacts .text-wrapper-4 {
+    color: #abb2bf;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .contacts .title {
+    height: 77px;
+    left: 171px;
+    position: absolute;
+    top: 114px;
+    width: 176px;
+  }
+  
+  .contacts .frame-15 {
+    align-items: flex-start;
+    display: flex;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: fit-content;
+  }
+  
+  .contacts .text-wrapper-5 {
+    color: #c778dd;
+    font-family: "Fira Code", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .contacts .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Fira Code", Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .contacts .text-wrapper-7 {
+    color: #ffffff;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 56px;
+  }
+  
+  .contacts .header-instance {
+    height: auto !important;
+    left: 171px !important;
+    mix-blend-mode: normal !important;
+    position: fixed !important;
+    top: 0 !important;
+  }
+  
+  .contacts .media-3 {
+    left: 17px !important;
+    position: fixed !important;
+    top: 0 !important;
+  }
+  

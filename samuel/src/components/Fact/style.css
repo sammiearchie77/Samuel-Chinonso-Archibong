@@ -1,0 +1,23 @@
+.fact {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: #abb2bf;
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .fact .i-like-winter-more {
+    color: #abb2bf;
+    font-family: "Fira Code", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
