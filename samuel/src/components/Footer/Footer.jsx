@@ -5,6 +5,8 @@ import { Github2 } from "../../icons/Github2";
 import { Logo } from "../Logo";
 import "./style.css";
 
+let today = new Date();
+
 export const Footer = ({ className }) => {
     return (
         <div className={`footer ${className}`}>
@@ -33,7 +35,7 @@ export const Footer = ({ className }) => {
                             </div>
                         </div>
                     </div>
-                    <p className="copyright-made">@ Copyright 2023. Made by Samuel Chinonso Archibong</p>
+                    <p className="copyright-made">@ Copyright {today.getFullYear()} SE - Archibong</p>
                 </div>
             </div>
         </div>

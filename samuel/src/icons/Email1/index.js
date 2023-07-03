@@ -1,1 +1,1 @@
-export { Email1 } from "./Email1";
+export { Email1 } from "./Email1.jsx";

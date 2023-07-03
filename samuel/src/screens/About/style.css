@@ -1,0 +1,473 @@
+.about {
+  background-color: #282c33;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about .div-2 {
+  background-color: #282c33;
+  border: 1px none;
+  height: 1787px;
+  overflow: hidden;
+  position: relative;
+  width: 1366px;
+}
+
+.about .overlap {
+  height: 1294px;
+  left: -77px;
+  position: absolute;
+  top: 199px;
+  width: 1530px;
+}
+
+.about .background {
+  height: 1237px;
+  left: 0;
+  position: absolute;
+  top: 57px;
+  width: 1530px;
+}
+
+.about .dots-instance {
+  height: 103px !important;
+  left: 1363px !important;
+  position: absolute !important;
+  top: 1134px !important;
+  width: 103px !important;
+}
+
+.about .design-component-instance-node {
+  height: 103px !important;
+  left: 1390px !important;
+  position: absolute !important;
+  top: 511px !important;
+  width: 103px !important;
+}
+
+.about .frame-13 {
+  height: 49px !important;
+  left: 46px !important;
+  position: absolute !important;
+  top: 145px !important;
+  width: 109px !important;
+}
+
+.about .rectangle {
+  border: 1px solid;
+  border-color: #abb2bf;
+  height: 155px;
+  left: 0;
+  position: absolute;
+  top: 965px;
+  width: 155px;
+}
+
+.about .rectangle-2 {
+  border: 1px solid;
+  border-color: #abb2bf;
+  height: 155px;
+  left: 1375px;
+  position: absolute;
+  top: 0;
+  width: 155px;
+}
+
+.about .div-3 {
+  height: 508px;
+  left: 253px;
+  position: absolute;
+  top: 0;
+  width: 1030px;
+}
+
+.about .group-2 {
+  height: 508px;
+  left: 685px;
+  position: absolute;
+  top: 0;
+  width: 343px;
+}
+
+.about .overlap-group-3 {
+  height: 507px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 343px;
+}
+
+.about .jc-gellidon {
+  height: 507px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 339px;
+}
+
+.about .frame-14 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 59px !important;
+}
+
+.about .frame-15 {
+  height: 56px !important;
+  left: 223px !important;
+  position: absolute !important;
+  top: 279px !important;
+  width: 104px !important;
+}
+
+.about .line-stroke-2 {
+  height: 1px;
+  left: 48px;
+  position: absolute;
+  top: 507px;
+  width: 271px;
+}
+
+.about .hello-i-m-elias-i-m {
+  color: #abb2bf;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  top: 104px;
+  width: 515px;
+}
+
+.about .skills {
+  height: 251px;
+  left: 248px;
+  position: absolute;
+  top: 620px;
+  width: 1024px;
+}
+
+.about .h-2 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.about .frame-16 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  left: 0;
+  position: absolute;
+  top: 90px;
+  width: 1024px;
+}
+
+.about .block-instance {
+  flex: 1 !important;
+  width: unset !important;
+}
+
+.about .block-2 {
+  min-width: 192px !important;
+}
+
+.about .frame-17 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: #abb2bf;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 0px;
+  position: relative;
+}
+
+.about .div-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  padding: 0px 8px;
+  position: relative;
+}
+
+.about .languages-2 {
+  color: #ffffff;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.about .line-5 {
+  align-self: stretch;
+  height: 1px;
+  min-width: 192px;
+  object-fit: cover;
+  position: relative;
+}
+
+.about .frame-18 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.about .frame-19 {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.about .text-wrapper-2 {
+  color: #abb2bf;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.about .frame-20 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-right: -4px;
+  padding: 0px 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.about .frame-21 {
+  align-items: flex-start;
+  display: flex;
+  gap: 11px;
+  position: relative;
+  width: fit-content;
+}
+
+.about .facts {
+  height: 264px;
+  left: 248px;
+  position: absolute;
+  top: 954px;
+  width: 939px;
+}
+
+.about .frame-22 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 0;
+  position: absolute;
+  top: 68px;
+  width: fit-content;
+}
+
+.about .frame-23 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.about .i-like-winter-more-wrapper {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: #abb2bf;
+  display: flex;
+  gap: 10px;
+  padding: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.about .p {
+  color: transparent;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.about .span {
+  color: #abb2bf;
+}
+
+.about .text-wrapper-3 {
+  color: #ffffff;
+}
+
+.about .frame-24 {
+  align-items: flex-start;
+  display: flex;
+  gap: 17px;
+  position: relative;
+  width: fit-content;
+}
+
+.about .group-3 {
+  height: 169px;
+  left: 761px;
+  position: absolute;
+  top: 68px;
+  width: 178px;
+}
+
+.about .frame-25 {
+  height: unset !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 16px !important;
+}
+
+.about .logo-2 {
+  height: 113px;
+  left: 65px;
+  position: absolute;
+  top: 56px;
+  width: 113px;
+}
+
+.about .overlap-group-4 {
+  height: 114px;
+  left: -1px;
+  position: relative;
+  width: 114px;
+}
+
+.about .union-2 {
+  height: 85px;
+  left: 58px;
+  position: absolute;
+  top: 0;
+  width: 56px;
+}
+
+.about .union-3 {
+  height: 87px;
+  left: 0;
+  position: absolute;
+  top: 27px;
+  width: 58px;
+}
+
+.about .footer-instance {
+  background-color: transparent !important;
+  height: auto !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 1579px !important;
+}
+
+.about .discord-wrapper {
+  min-width: 1366px !important;
+}
+
+.about .discord-instance-wrapper {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/cfc7fd1534b2f8384d7b1b810422b284/img/union-3.svg) !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  width: unset !important;
+}
+
+.about .discord-instance {
+  height: 32px !important;
+  left: 80px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 32px !important;
+}
+
+.about .title {
+  height: 77px;
+  left: 171px;
+  position: absolute;
+  top: 114px;
+  width: 176px;
+}
+
+.about .frame-26 {
+  align-items: flex-start;
+  display: flex;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: fit-content;
+}
+
+.about .text-wrapper-4 {
+  color: #c778dd;
+  font-family: "Fira Code", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.about .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Fira Code", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.about .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Fira Code", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 56px;
+}
+
+.about .header-instance {
+  height: auto !important;
+  left: 171px !important;
+  mix-blend-mode: normal !important;
+  position: fixed !important;
+  top: 0 !important;
+}
+
+.about .media-instance {
+  left: 17px !important;
+  position: fixed !important;
+  top: 0 !important;
+}

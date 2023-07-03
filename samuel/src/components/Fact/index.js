@@ -1,0 +1,1 @@
+export { Fact } from "./Fact";
