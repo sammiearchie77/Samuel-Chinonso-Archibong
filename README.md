@@ -1,6 +1,6 @@
 ![MasterHead](/image/codinggee.png)
 <h1 align="center">Hi 👋, I'm Samuel Chinonso Archibong (CodingGee)</h1>
-<h3 align="center">I am a multiplatform Software Engineer from Nigeria.</h3>
+<h3 align="center">I am a Software Engineer from Nigeria.</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sammiearchie29&label=Profile%20views&color=0e75b6&style=flat" alt="sammiearchie29" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sammiearchie77" alt="sammiearchie77" /></a> </p>
@@ -8,7 +8,9 @@
 <p align="left"> <a href="https://twitter.com/geecoding" target="blank"><img src="https://img.shields.io/twitter/follow/geecoding?logo=twitter&style=for-the-badge" alt="geecoding" /></a> </p>
 <img align="right" alt="coding" width="400" src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif">
 
-- 🔭 I’m currently working on **Myposbook**
+- 🔭 I’m currently working on **Signature**
+
+- 🔭 I’m currently working on **Career Starter**
 
 - 🌱 I’m currently learning **ALX Software Engineering Programme**
 
@@ -17,6 +19,8 @@
 - 🤝 I’m looking for help with **DevHang-out**
 
 - 👨‍💻 All of my projects are available at [https://github.com/sammiearchie77?tab=repositories](https://github.com/sammiearchie77?tab=repositories)
+
+- 👨‍💻 All of my projects are available at [https://github.com/archbong?tab=repositories](https://github.com/archbong?tab=repositories)
 
 - 📝 I regularly write articles on [codinggee.herokuapp.com/blog](codinggee.herokuapp.com/blog)
 
