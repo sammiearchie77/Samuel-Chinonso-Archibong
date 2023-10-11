@@ -35,9 +35,9 @@ const Skill = ({ loading, skills }) => {
               <div className="m-1 flex flex-wrap justify-center">
                 {loading
                   ? renderSkeleton()
-                  : skills.map((skill) => (
+                  : skills.map((skill, index) => (
                       <div
-                        key={skill.id}
+                        key={index}
                         className="m-1 text-xs inline-flex items-center font-bold leading-sm px-3 py-1 badge-primary bg-opacity-90 rounded-full"
                       >
                         {skill}

@@ -1,13 +1,13 @@
-import { MdLocationOn } from "react-icons/md";
+import { MdLocationOn } from 'react-icons/md';
 import {
   AiFillGithub,
   AiFillInstagram,
   AiFillMediumSquare,
-} from "react-icons/ai";
-import { SiTwitter } from "react-icons/si";
-import { CgDribbble } from "react-icons/cg";
-import { RiPhoneFill, RiMailFill } from "react-icons/ri";
-import { Fragment } from "react";
+} from 'react-icons/ai';
+import { SiTwitter } from 'react-icons/si';
+import { CgDribbble } from 'react-icons/cg';
+import { RiPhoneFill, RiMailFill } from 'react-icons/ri';
+import { Fragment } from 'react';
 import {
   FaBehanceSquare,
   FaBuilding,
@@ -20,16 +20,26 @@ import {
   FaTelegram,
   FaLinkedin,
   FaYoutube,
-} from "react-icons/fa";
-import PropTypes from "prop-types";
-import { skeleton } from "../../helpers/utils";
+} from 'react-icons/fa';
+import PropTypes from 'prop-types';
+import { skeleton } from '../../helpers/utils';
 
-const isCompanyMention = (company) =>
-  company.startWith("@") && !company.includes(" ");
-const companyLink = (company) => `https://github.com/${company.substring(1)}`;
+const isCompanyMention = (company) => {
+  return company.startsWith('@') && !company.includes(' ');
+};
+
+const companyLink = (company) => {
+  return `https://github.com/${company.substring(1)}`;
+};
+
 const getFormattedMastodonValue = (mastodonValue, isLink) => {
-  const [username, server] = mastodonValue.split("@");
-  return isLink ? `https://${server}/@${username}` : `${username}@${server}`;
+  const [username, server] = mastodonValue.split('@');
+
+  if (isLink) {
+    return `https://${server}/@${username}`;
+  } else {
+    return `${username}@${server}`;
+  }
 };
 
 const ListItem = ({ icon, title, value, link, skeleton = false }) => {
@@ -45,10 +55,10 @@ const ListItem = ({ icon, title, value, link, skeleton = false }) => {
       </div>
       <div
         className={`${
-          skeleton ? "flex-grow" : " "
-        } text-sm font-normal text-right mr-2 ml-3 ${link ? "truncate" : " "}`}
+          skeleton ? 'flex-grow' : ''
+        } text-sm font-normal text-right mr-2 ml-3 ${link ? 'truncate' : ''}`}
         style={{
-          wordBreak: "break-word",
+          wordBreak: 'break-word',
         }}
       >
         {value}
@@ -65,12 +75,13 @@ const Details = ({ profile, loading, social, github }) => {
         <ListItem
           key={index}
           skeleton={true}
-          icon={skeleton({ width: "w-4", height: "h-4" })}
-          title={skeleton({ width: "w-24", height: "h-4" })}
-          value={skeleton({ width: "w-full", height: "h-4" })}
+          icon={skeleton({ width: 'w-4', height: 'h-4' })}
+          title={skeleton({ width: 'w-24', height: 'h-4' })}
+          value={skeleton({ width: 'w-full', height: 'h-4' })}
         />
       );
     }
+
     return array;
   };
 
@@ -85,7 +96,7 @@ const Details = ({ profile, loading, social, github }) => {
               {profile.location && (
                 <ListItem
                   icon={<MdLocationOn />}
-                  title="Location:"
+                  title="Based in:"
                   value={profile.location}
                 />
               )}
@@ -103,7 +114,7 @@ const Details = ({ profile, loading, social, github }) => {
               )}
               <ListItem
                 icon={<AiFillGithub />}
-                title="Github:"
+                title="GitHub:"
                 value={github.username}
                 link={`https://github.com/${github.username}`}
               />
@@ -191,7 +202,7 @@ const Details = ({ profile, loading, social, github }) => {
                 <ListItem
                   icon={<FaStackOverflow />}
                   title="Stack Overflow:"
-                  value={social.stackoverflow.split("/").slice(-1)}
+                  value={social.stackoverflow.split('/').slice(-1)}
                   link={`https://stackoverflow.com/users/${social.stackoverflow}`}
                 />
               )}

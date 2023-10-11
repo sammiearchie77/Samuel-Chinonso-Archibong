@@ -59,9 +59,9 @@ const Education = ({ loading, education }) => {
                   renderSkeleton()
                 ) : (
                   <Fragment>
-                    {education.map((item) => (
+                    {education.map((item, index) => (
                       <ListItem
-                        key={item.id}
+                        key={index}
                         item={`${item.form} - ${item.to}`}
                         degree={item.degree}
                         institution={item.institution}

@@ -60,9 +60,9 @@ const Certification = ({ certifications, loading }) => {
                   renderSkeleton()
                 ) : (
                   <Fragment>
-                    {certifications.map((certification) => (
+                    {certifications.map((certification, index) => (
                       <ListItem
-                        key={certification.id}
+                        key={index}
                         year={`${certification.year}`}
                         name={certification.name}
                         body={certification.body}

@@ -1,13 +1,17 @@
-import { Fragment, useEffect, useState } from "react";
-import { ga, skeleton } from "../../helpers/utils";
-import LazyImage from "../lazy-image";
-import PropTypes from "prop-types";
-import { AiOutlineContainer } from "react-icons/ai";
-import { getDevPost, getMediumPost } from "@arifszn/blog-js";
-import { formatDistance } from "date-fns";
+import { Fragment, useEffect, useState } from 'react';
+import { ga, skeleton } from '../../helpers/utils';
+import LazyImage from '../lazy-image';
+import PropTypes from 'prop-types';
+import { AiOutlineContainer } from 'react-icons/ai';
+import { getDevPost, getMediumPost } from '@arifszn/blog-js';
+import { formatDistance } from 'date-fns';
 
 const displaySection = (blog) => {
-  return !!(blog?.source && blog?.username);
+  if (blog?.source && blog?.username) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 const Blog = ({ loading, blog, googleAnalytics }) => {
@@ -15,13 +19,13 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
 
   useEffect(() => {
     if (displaySection(blog)) {
-      if (blog.source === "medium") {
+      if (blog.source === 'medium') {
         getMediumPost({
           user: blog.username,
         }).then((res) => {
           setArticles(res);
         });
-      } else if (blog.source === "dev") {
+      } else if (blog.source === 'dev') {
         getDevPost({
           user: blog.username,
         }).then((res) => {
@@ -29,7 +33,7 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
         });
       }
     }
-  }, [blog]);
+  }, []);
 
   const renderSkeleton = () => {
     let array = [];
@@ -40,7 +44,11 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
             <div className="flex items-center flex-col md:flex-row">
               <div className="avatar mb-5 md:mb-0">
                 <div className="w-24 h-24 mask mask-squircle">
-                  {skeleton({ width: "w-full", height: "h-full", shape: "" })}
+                  {skeleton({
+                    width: 'w-full',
+                    height: 'h-full',
+                    shape: '',
+                  })}
                 </div>
               </div>
               <div className="w-full">
@@ -48,28 +56,28 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
                   <div className="w-full">
                     <h2>
                       {skeleton({
-                        width: "w-full",
-                        height: "h-8",
-                        className: "mb-2 mx-auto md:mx-0",
+                        width: 'w-full',
+                        height: 'h-8',
+                        className: 'mb-2 mx-auto md:mx-0',
                       })}
                     </h2>
                     {skeleton({
-                      width: "w-24",
-                      height: "h-3",
-                      className: "mx-auto md:mx-0",
+                      width: 'w-24',
+                      height: 'h-3',
+                      className: 'mx-auto md:mx-0',
                     })}
                     <div className="mt-3">
                       {skeleton({
-                        width: "w-full",
-                        height: "h-4",
-                        className: "mx-auto md:mx-0",
+                        width: 'w-full',
+                        height: 'h-4',
+                        className: 'mx-auto md:mx-0',
                       })}
                     </div>
                     <div className="mt-4 flex items-center flex-wrap justify-center md:justify-start">
                       {skeleton({
-                        width: "w-32",
-                        height: "h-4",
-                        className: "md:mr-2 mx-auto md:mx-0",
+                        width: 'w-32',
+                        height: 'h-4',
+                        className: 'md:mr-2 mx-auto md:mx-0',
                       })}
                     </div>
                   </div>
@@ -85,28 +93,29 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
   };
 
   const renderArticles = () => {
-    return articles?.articles.length ? (
-      articles.slice(0, blog.limit).map((article) => (
+    return articles && articles.length ? (
+      articles.slice(0, blog.limit).map((article, index) => (
         <a
           className="card shadow-lg compact bg-base-100 cursor-pointer"
-          key={article.id}
+          key={index}
           href={article.link}
           onClick={(e) => {
             e.preventDefault();
+
             try {
               if (googleAnalytics?.id) {
                 ga.event({
-                  action: "Click Blog Post",
+                  action: 'Click Blog Post',
                   params: {
                     post: article.title,
                   },
                 });
               }
             } catch (error) {
-              console.log(`Errow: ${error}`);
+              console.error(error);
             }
 
-            window?.open(article.link, "_blank");
+            window?.open(article.link, '_blank');
           }}
         >
           <div className="p-8 h-full w-full">
@@ -115,11 +124,11 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
                 <div className="w-24 h-24 mask mask-squircle">
                   <LazyImage
                     src={article.thumbnail}
-                    alt="thumbnail"
+                    alt={'thumbnail'}
                     placeholder={skeleton({
-                      width: "w-full",
-                      height: "h-full",
-                      shape: "",
+                      width: 'w-full',
+                      height: 'h-full',
+                      shape: '',
                     })}
                   />
                 </div>
@@ -139,10 +148,10 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
                       {article.description}
                     </p>
                     <div className="mt-4 flex items-center flex-wrap justify-center md:justify-start">
-                      {article.categories.map((category) => (
+                      {article.categories.map((category, index2) => (
                         <div
                           className="py-2 px-4 text-xs leading-3 rounded-full bg-base-300 mr-1 mb-1 opacity-50 text-base-content"
-                          key={category.id}
+                          key={index2}
                         >
                           #{category}
                         </div>
@@ -173,16 +182,16 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
             <div className="col-span-2">
               <div
                 className={`card compact bg-base-100 ${
-                  loading || articles?.articles.length
-                    ? "shadow bg-opacity-40"
-                    : "shadow-lg"
+                  loading || (articles && articles.length)
+                    ? 'shadow bg-opacity-40'
+                    : 'shadow-lg'
                 }`}
               >
                 <div className="card-body">
                   <div className="mx-3 mb-2">
                     <h5 className="card-title">
                       {loading ? (
-                        skeleton({ width: "w-28", height: "h-8" })
+                        skeleton({ width: 'w-28', height: 'h-8' })
                       ) : (
                         <span className="text-base-content opacity-70">
                           Recent Posts

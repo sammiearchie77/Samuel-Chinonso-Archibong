@@ -65,9 +65,9 @@ const Experience = ({ experiences, loading }) => {
                   renderSkeleton()
                 ) : (
                   <Fragment>
-                    {experiences.map((experiences) => (
+                    {experiences.map((experiences, index) => (
                       <ListItem
-                        key={experiences.id}
+                        key={index}
                         time={`${experiences.from} - ${experiences.to}`}
                         position={experiences.position}
                         company={experiences.company}

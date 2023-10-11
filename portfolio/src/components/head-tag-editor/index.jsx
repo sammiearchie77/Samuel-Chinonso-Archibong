@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { Helmet } from "react-helment-async";
+import { Helmet } from "react-helmet-async";
 import PropTypes from "prop-types";
 import { isDarkishTheme } from "../../helpers/utils";
 

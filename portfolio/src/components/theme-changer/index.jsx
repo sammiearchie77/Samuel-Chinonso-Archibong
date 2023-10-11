@@ -64,8 +64,8 @@ const ThemeChanger = ({ theme, setTheme, loading, themeConfig }) => {
                     ...themeConfig.themes.filter(
                       (item) => item !== themeConfig.defaultTheme
                     ),
-                  ].map((item) => (
-                    <li key={item.id}>
+                  ].map((item, index) => (
+                    <li key={index}>
                       <a
                         onClick={(e) => changeTheme(e, item)}
                         className={`${theme === item ? "active" : " "}`}

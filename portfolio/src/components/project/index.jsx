@@ -1,8 +1,8 @@
-import PropTypes from "prop-types";
-import { Fragment } from "react";
-import { AiOutlineFork, AiOutlineStar } from "react-icons/ai";
-import { MdInsertLink } from "react-icons/md";
-import { ga, languageColor, skeleton } from "../../helpers/utils";
+import PropTypes from 'prop-types';
+import { Fragment } from 'react';
+import { AiOutlineFork, AiOutlineStar } from 'react-icons/ai';
+import { MdInsertLink } from 'react-icons/md';
+import { ga, languageColor, skeleton } from '../../helpers/utils';
 
 const Project = ({ repo, loading, github, googleAnalytics }) => {
   if (!loading && Array.isArray(repo) && repo.length === 0) {
@@ -20,62 +20,68 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                 <span>
                   <h5 className="card-title text-lg">
                     {skeleton({
-                      width: "w-32",
-                      height: "h-8",
-                      className: "mb-1",
+                      width: 'w-32',
+                      height: 'h-8',
+                      className: 'mb-1',
                     })}
                   </h5>
                 </span>
               </div>
               <div className="mb-5 mt-1">
                 {skeleton({
-                  width: "w-full",
-                  height: "h-4",
-                  className: "mb-2",
+                  width: 'w-full',
+                  height: 'h-4',
+                  className: 'mb-2',
                 })}
-                {skeleton({ width: "w-full", height: "h-4" })}
+                {skeleton({ width: 'w-full', height: 'h-4' })}
               </div>
             </div>
             <div className="flex justify-between">
               <div className="flex flex-grow">
                 <span className="mr-3 flex items-center">
-                  {skeleton({ width: "w-12", height: "h-4" })}
+                  {skeleton({ width: 'w-12', height: 'h-4' })}
                 </span>
                 <span className="flex items-center">
-                  {skeleton({ width: "w-12", height: "h-4" })}
+                  {skeleton({ width: 'w-12', height: 'h-4' })}
                 </span>
               </div>
-              <div className="flex items-center">
-                {skeleton({ width: "w-12", height: "h-4" })}
+              <div>
+                <span className="flex items-center">
+                  {skeleton({ width: 'w-12', height: 'h-4' })}
+                </span>
               </div>
             </div>
           </div>
         </div>
       );
     }
+
     return array;
   };
 
   const renderProjects = () => {
-    return repo.map((item) => (
+    return repo.map((item, index) => (
       <a
         className="card shadow-lg compact bg-base-100 cursor-pointer"
         href={item.html_url}
-        key={item.id}
+        key={index}
         onClick={(e) => {
           e.preventDefault();
+
           try {
             if (googleAnalytics?.id) {
               ga.event({
-                action: "click project",
-                params: item.name,
+                action: 'Click project',
+                params: {
+                  project: item.name,
+                },
               });
             }
           } catch (error) {
-            console.log(error);
+            console.error(error);
           }
 
-          window?.open(item.html_url, "_blank");
+          window?.open(item.html_url, '_blank');
         }}
       >
         <div className="flex justify-between flex-col p-8 h-full w-full">
@@ -106,9 +112,8 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                 <div
                   className="w-3 h-3 rounded-full mr-1 opacity-60"
                   style={{ backgroundColor: languageColor(item.language) }}
-                >
-                  <span>{item.language}</span>
-                </div>
+                />
+                <span>{item.language}</span>
               </span>
             </div>
           </div>
@@ -127,15 +132,15 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                 <div className="mx-3 flex items-center justify-between mb-2">
                   <h5 className="card-title">
                     {loading ? (
-                      skeleton({ width: "w-40", height: "h-8" })
+                      skeleton({ width: 'w-40', height: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        Github Projects
+                        GitHub Projects
                       </span>
                     )}
                   </h5>
                   {loading ? (
-                    skeleton({ width: "w-10", height: "h-5" })
+                    skeleton({ width: 'w-10', height: 'h-5' })
                   ) : (
                     <a
                       href={`https://github.com/${github.username}?tab=repositories`}

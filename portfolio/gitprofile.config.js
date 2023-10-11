@@ -2,7 +2,8 @@
 
 const config = {
     github: {
-      username: 'archibong',
+      // username: 'archbong',
+      username: 'sammiearchie77',
       sortBy: 'stars', 
       limit: 10, 
       exclude: {
@@ -76,24 +77,30 @@ const config = {
     ],
     certifications: [
       {
+        name: 'Google IT Support',
+        body: 'Google',
+        year: '2023',
+        link: 'https://example.com',
+      },
+      {
         name: 'Software Engineering',
         body: 'Holberton SE',
-        year: 'October 2023',
+        year: '2023',
         link: 'https://example.com',
       },
     ],
     education: [
       {
-        institution: 'Institution Name',
-        degree: 'Degree',
-        from: '2015',
-        to: '2019',
+        institution: 'Niger Delta University',
+        degree: 'Computer Science',
+        from: '2017',
+        to: '2022',
       },
       {
-        institution: 'Institution Name',
-        degree: 'Degree',
-        from: '2012',
-        to: '2014',
+        institution: 'Ken saro-wiwa Polytechnic',
+        degree: 'Nation Diploma in Business Administration and Management',
+        from: '2014',
+        to: '2016',
       },
     ],
   
